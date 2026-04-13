@@ -107,7 +107,7 @@ $$
 - Exemplos: Normal, $t$, Cauchy
 
 $$
-f_{EC}(x; \mu, \sigma^2, h^{(1)}) = \frac{c}{\sigma} h^{(1)} \left[ \frac{(x - \mu)^2}{\sigma^2} \right], \quad x \in \mathbb{R}
+f_{EC}(x; \mu, \Sigma, h^{(p)}) = \frac{c_p}{|\Sigma|} h^{(p)} \left[ \mathbf{(x - \mathbf{\mu})^\top\Sigma^{-1}(x - \mathbf{\mu})} \right], \quad x \in \mathbb{R}
 $$
 
 ---
